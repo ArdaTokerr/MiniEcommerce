@@ -28,8 +28,8 @@ public static class DbSeeder
         var customer = new User
         {
             FullName = "Customer User",
-            Email = "customer@ecommerce.local",
-            PasswordHash = BCrypt.Net.BCrypt.HashPassword("Customer123!"),
+            Email = "arda@toker.local",
+            PasswordHash = BCrypt.Net.BCrypt.HashPassword("arda123"),
             Role = UserRole.Customer
         };
         db.Users.Add(customer);
